@@ -151,7 +151,7 @@ section{
 .info-dev h5{
     font-size: 20px;
     color: #808080;
-    width: 255px;
+    width: 280px;
     font-family: 'Share Tech Mono', monospace;
 }
 
@@ -321,7 +321,7 @@ h5 {
       width: 0%;
     }
     to {
-      width: 255px;
+      width: 280px;
     }
   }
   @keyframes blink {
@@ -404,5 +404,9 @@ h5 {
 
     .container img{
         width: 10px;
+    }
+
+    h5{
+      margin: 0 auto;
     }
  }
