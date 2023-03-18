@@ -1,25 +1,3 @@
-// const imgFlutuante = document.getElementById("img-flutuante");
-// let direction = "up";
-// let currentPosition = 0;
-
-// function animate() {
-//   if (direction === "up") {
-//     currentPosition -= 1;
-//     if (currentPosition < -10) {
-//       direction = "down";
-//     }
-//   } else {
-//     currentPosition += 1;
-//     if (currentPosition > 10) {
-//       direction = "up";
-//     }
-//   }
-//   imgFlutuante.style.transform = `translate(-50%, ${currentPosition}px)`;
-//   window.requestAnimationFrame(animate);
-// }
-
-// animate();
-
 
 const imgFlutuante = document.getElementById("img-flutuante");
 let position = 0;

@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 
-
 html{
     scroll-behavior: smooth;
 }
@@ -18,26 +17,16 @@ body{
 
 nav ul{
     z-index: 1;
-
     list-style: none;
-
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: center;
-
     position: fixed;
     background-color: white;
     height: 2rem;
     width: 100%;
-
-    
-    
-
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.151);
-
-   
-
 }
 
 nav ul a{
@@ -46,6 +35,7 @@ nav ul a{
     font-size: 15px;
     font-family: 'Share Tech Mono', monospace;
 }
+
 nav ul a:hover{
     color: #0395FF;
     transition: 0.5s;
@@ -55,7 +45,6 @@ nav ul a:hover{
 section{
     min-height: 100vh;
     padding-top: 3rem;
-
 }
 
 #sobre{
@@ -67,9 +56,7 @@ section{
 
 #contatos{
     background-color: rgb(255, 255, 255);
-   
 }
-
 
 #projetos  h1{
     text-align: center;
@@ -137,16 +124,12 @@ section{
     transition: all 0.4s ease;
 }
 
-/* .img-dev{
-    width: 400px;
-} */
 .info-dev h1{
     font-size: 50px;
     color: #0395FF;
     text-shadow: 0px 2px 5px #00b7ffd5; 
     font-family: 'Share Tech Mono', monospace;   
 }
-
 
 .info-dev h5{
     font-size: 20px;
@@ -183,12 +166,10 @@ section{
 .info-dev button:hover{
     transition: all 0.4s ease;
     border-radius: 200px;
-    
     color: #0395FF;
     text-shadow: 0px 0px 1px #00b7ffd5; 
     filter: grayscale(0);
     width: 180px;
-    
 }
 
 .info-dev a{
@@ -198,7 +179,6 @@ section{
 #botao-2{
     height: 36px;
 }
-
 
 .img-link{
     padding: 2px 0;
@@ -214,8 +194,6 @@ section{
     transition: all 0.4s ease;
 }
 
-
-
 .container {
     position: relative;
     width: 500px;
@@ -225,7 +203,6 @@ section{
   
   #img-flutuante {
     position: absolute; 
-    /* top: 40%;  */
     left: 50%;
     width: 400px;
     height: 400px;
@@ -233,7 +210,6 @@ section{
   }
 
 .img-portfolio img{
-    
     width: 350px;
     height: 200px;
     border-top-right-radius: 30px;
@@ -245,23 +221,18 @@ section{
   }
 
   .img-portfolio img:hover{
-   
-    
     border-radius: 30px;
-    
     filter: grayscale(0) saturate(1);
     transition: all 0.5s;
-
   }
+
 .grid-portfolio{
-    
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 40px;
     margin-bottom: 30px;
-
 }
 
 .img-portfolio p{
@@ -272,7 +243,6 @@ section{
     font-weight: bold;
     position: relative;
    text-decoration: none;  
-    
 }
 
 .img-portfolio p:before {
@@ -289,7 +259,6 @@ section{
     transform: scaleX(0);
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
-    
   }
 
   .img-portfolio:hover p:before {
@@ -301,18 +270,14 @@ section{
 .img-portfolio:hover p{
     transition: all 0.5s;
     color: #0395FF;
-
 }
-  
-
 
 
 h5 {
     font-size: 90px;
-    
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 2.6s steps(30)  alternate,
+    animation: typewriter 3.6s steps(30)  alternate ,
       blink 500ms steps(13)  infinite normal;
     border-right: 3px solid black;
   }
@@ -340,7 +305,6 @@ h5 {
     justify-content: center;
     gap: 20px;
     height: 100px;
-    
   }
 
   .icon-contatos img{
@@ -349,7 +313,6 @@ h5 {
     border-radius: 20px;
     filter: grayscale(100) ;
     transition: all 0.6s;
-    
   }
 
   .icon-contatos img:hover{
@@ -357,7 +320,6 @@ h5 {
     height: 60px;
     transition: all 0.6s;
     filter: grayscale(0);
-    
   }
 
 .nome-final h6{
@@ -371,7 +333,6 @@ h5 {
 
 
   footer{
-    
     width: 50px;
     position: fixed;
     display: flex;
@@ -379,7 +340,6 @@ h5 {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
     top: 500px;
   }
 
